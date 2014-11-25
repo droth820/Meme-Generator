@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*CSS document for MemeGenerator.html*/
+
+body{
+	background-color: #CCCCCC;
+	font-family: 'Lato', sans-serif;
+}
+
+#c{
+	background-color: #CCCCFF;
+	border-style: solid;
+	border-color: #000000;
+	text-wrap: unrestricted;
+}
+
+#topLineText{
+	text-wrap: unrestricted;
+}
+#file{
+	background-color: #7EC0EE;
+}
+
+.forms{
+	background-color: #FFCC33;
+}
+
+#image-container{
+				display:flex;
+			}
