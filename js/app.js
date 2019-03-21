@@ -17,7 +17,7 @@ function textChangeListener(evt){
 			//Get canvas 2d context
 			var canvas = document.querySelector("#c");
 			var ctx = canvas.getContext("2d");
-			var maxWidth = 300;
+			var maxWidth = 600;
 			var x = (canvas.width - maxWidth) / 2;
 
 			
@@ -49,8 +49,8 @@ function textChangeListener(evt){
 
 
 		function handleFileSelect(evt) {
-			var canvasWidth = 500;
-			var canvasHeight = 500;
+			var canvasWidth = 600;
+			var canvasHeight = 600;
 			var file = evt.target.files[0];
 
 			var reader = new FileReader();
