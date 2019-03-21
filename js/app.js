@@ -44,7 +44,9 @@ function textChangeListener(evt){
 		}
 
 		function saveFile() {
-			window.open(document.querySelector('canvas').toDataURL());
+			var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+			window.location.href-image;
+			//window.open(document.querySelector('canvas').toDataURL());
 		}
 
 
